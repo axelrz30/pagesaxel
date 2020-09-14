@@ -1,0 +1,24 @@
+.porteria{
+	display: grid;
+	border:1px solid red;
+
+/*				fila y columna*/
+grid-gap: 5px 10px;
+
+/* grid-template-columns: 2fr 2fr 2fr 2fr;		/* 1fr= 1/4=25%		2fr= 2/4 = 50%*/
+
+ /*			fila y columna*/
+ grid-template:100px 100px/repeat(2, minmax(650px,700px));
+
+
+ /*grid-template-areas:	*/
+
+
+
+
+
+}
+.balon{
+	display: grid;
+	border:1px solid green;
+}
